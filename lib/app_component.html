@@ -1,18 +1,7 @@
-<h3>DateRangePicker list</h3>
-<div *ngFor="let rangeTile of rangeTileList">
-    <material-date-range-picker [(range)]="rangeTile.range"></material-date-range-picker>
-    <br>
+<div class="app-container">
+    <material-tab-panel centerStrip class="tab-panel">
+        <material-tab label="Date range">
+            <daterange></daterange>
+        </material-tab>
+    </material-tab-panel>
 </div>
-
-
-<div *ngIf="rangeTileList.length == 0">
-    <material-button disabled (click)="rmRange()" class="float-left">REMOVE</material-button>
-</div>
-<div *ngIf="rangeTileList.length > 0">
-    <material-button raised (click)="rmRange()" class="float-left">REMOVE</material-button>
-</div>
-
-<material-button raised (click)="addRange()" class="float-left">ADD</material-button>
-<material-button raised (click)="checkDateRange()" class="float-left">CHECK</material-button>
-
-<pre>{{log}}</pre>
