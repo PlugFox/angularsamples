@@ -1,9 +1,18 @@
-<material-date-range-picker compact [range]="one" [required]="true"></material-date-range-picker>
+<h3>DateRangePicker list</h3>
+<div *ngFor="let rangeTile of rangeTileList">
+    <material-date-range-picker [(range)]="rangeTile.range"></material-date-range-picker>
+    <br>
+</div>
 
-<br>
 
-<material-date-range-picker compact [range]="two" [required]="true"></material-date-range-picker>
+<div *ngIf="rangeTileList.length == 0">
+    <material-button disabled (click)="rmRange()" class="float-left">REMOVE</material-button>
+</div>
+<div *ngIf="rangeTileList.length > 0">
+    <material-button raised (click)="rmRange()" class="float-left">REMOVE</material-button>
+</div>
 
-<br>
+<material-button raised (click)="addRange()" class="float-left">ADD</material-button>
+<material-button raised (click)="checkDateRange()" class="float-left">CHECK</material-button>
 
-<button (click)="checkDateRange()">Click me</button>
+<pre>{{log}}</pre>
