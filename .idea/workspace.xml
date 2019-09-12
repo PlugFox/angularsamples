@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f577beb-ab6d-4081-90ef-aff2df7e4636" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/googlesignin/googlesignin.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/googlesignin/googlesignin_component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/googlesignin/googlesignin_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/googlesignin/googlesignin_component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/googlesignin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app_component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/daterange_component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/daterange/daterange_component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/daterange_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/daterange/daterange_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/daterange_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/daterange/daterange_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +23,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1QePuVhWsInaZYnaagXdo4b04RO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\angularsamples\web\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\angularsamples\lib\src\daterange" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,6 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568128311496</updated>
       <workItem from="1568128313337" duration="6819000" />
+      <workItem from="1568282582927" duration="8066000" />
+      <workItem from="1568293631853" duration="1901000" />
     </task>
     <servers />
   </component>
@@ -62,7 +100,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

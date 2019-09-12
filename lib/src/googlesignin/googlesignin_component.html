@@ -1,0 +1,19 @@
+<div class="googlesignin-container">
+    <h2>Google Sign-In</h2>
+    <br>
+    <material-input label="apiKey" required type="text" [(ngModel)]="apiKey"></material-input>
+    <br>
+    <material-input label="authDomain" required type="text" [(ngModel)]="authDomain"></material-input>
+    <br>
+    <material-input label="databaseURL" type="text" [(ngModel)]="databaseURL"></material-input>
+    <br>
+    <material-input label="storageBucket" type="text" [(ngModel)]="storageBucket"></material-input>
+    <br>
+    <material-input label="messagingSenderId" type="text" [(ngModel)]="messagingSenderId"></material-input>
+    <br>
+    <material-button raised (click)="init()">Init</material-button>
+    <material-button raised (click)="signIn()">Sign-In</material-button>
+    <br>
+    <h5>Token:</h5>
+    <p>{{token}}</p>
+</div>
